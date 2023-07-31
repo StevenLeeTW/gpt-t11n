@@ -1,0 +1,25 @@
+{
+  "name": "gpt-t9n",
+  "version": "1.0.0",
+  "description": "chat-gpt tool for translation based on nodejs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/StevenLeeTW/gpt-t9n.git"
+  },
+  "keywords": [
+    "translation",
+    "chat-gpt",
+    "openapi",
+    "json"
+  ],
+  "author": "CheJu Lee",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/StevenLeeTW/gpt-t9n/issues"
+  },
+  "homepage": "https://github.com/StevenLeeTW/gpt-t9n#readme"
+}
