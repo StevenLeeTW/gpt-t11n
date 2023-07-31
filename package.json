@@ -2,8 +2,10 @@
   "name": "gpt-t9n",
   "version": "1.0.0",
   "description": "chat-gpt tool for translation based on nodejs",
-  "main": "index.js",
+  "main": "src/index.js",
+  "type": "module",
   "scripts": {
+    "translate": "node -r dotenv/config src/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -21,5 +23,9 @@
   "bugs": {
     "url": "https://github.com/StevenLeeTW/gpt-t9n/issues"
   },
-  "homepage": "https://github.com/StevenLeeTW/gpt-t9n#readme"
+  "homepage": "https://github.com/StevenLeeTW/gpt-t9n#readme",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "openai": "^3.3.0"
+  }
 }
